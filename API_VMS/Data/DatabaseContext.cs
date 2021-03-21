@@ -15,7 +15,7 @@ namespace API_VMS.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=tcp:srvdbph.database.windows.net,1433;Initial Catalog=APIVMS;Persist Security Info=False;User ID=*****;Password=*****;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+            optionsBuilder.UseSqlServer("Server=tcp:srvdbph.database.windows.net,1433;Initial Catalog=APIVMS;Persist Security Info=False;User ID=*****;Password=****;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         }
     }
 }
